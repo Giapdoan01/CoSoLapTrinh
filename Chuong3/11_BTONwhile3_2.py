@@ -6,6 +6,6 @@ while 1<=n<=50:
         i=i+1
         j=i
         while j%10==1:
-            print()
-            j+=1        
+            print() 
+            j=j+1     
     n=n+50
