@@ -15,6 +15,6 @@ while True:
         print(a,"*",b,"=",a*b,sep="")
         d=str(input("tiep tuc:"))
  if d=="t" or d=="T":
-      continue
+      break
  elif d=="x":
-       break
+       continue
