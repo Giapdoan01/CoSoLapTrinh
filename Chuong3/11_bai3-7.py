@@ -17,4 +17,4 @@ while True:
  if d=="t" or d=="T":
       continue
  elif d=="x":
-            break
+       break
