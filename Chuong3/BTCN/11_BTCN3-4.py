@@ -3,16 +3,16 @@ l=int(input())
 h=int(input())
 tb=((t*2)+(l*3)+h)/6
 if tb<3:
-    print("Kém")
+    print("Kem")
 elif 3<=tb<5:
-    print("Yếu")
+    print("Yeu")
 elif 5<=tb<6:
-    print("Trung bình")
+    print("Trung binh")
 elif 6<=tb<7:
-    print("Trung bình khá")
+    print("Trung binh kha")
 elif 7<=tb<8:
-    print("Khá")
+    print("Kha")
 elif 8<=tb<9:
-    print("Giỏi")
+    print("Gioi")
 else:
-    print("Xuất sắc")
+    print("Xuat sac")
