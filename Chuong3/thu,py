@@ -21,44 +21,31 @@
 
 
 # Bài 3:
-n=input("n=")
-L=[]
-while n!="T":
-    m=float(n)
-    L=L+[m]
-    n=input("n=")
-S=0
-D=[]
-for i in L:
-    if i-int(i)==0:
-        D=D+[i]
-        S=S+i
-print("Trung binh cong cac so nguyen la :",S/len(D))
+# n=input("n=")
+# L=[]
+# while n!="T":
+#     m=float(n)
+#     L=L+[m]
+#     n=input("n=")
+# S=0
+# D=[]
+# for i in L:
+#     if i-int(i)==0:
+#         D=D+[i]
+#         S=S+i
+# print("Trung binh cong cac so nguyen la :",S/len(D))
 # Bài 4: Tính trung bình cộng 2 số thập phân đầu tiên
-# while True:
-    # n=float(input('n = '))
-    # if n>0:
-    #     a=n*100
-    #     f=round(a)
-    #     b=int(a)
-    #     if f/100==n:
-    #         c=f%100
-    #         S=0
-    #         for i in str(c):
-    #             S=S+int(i)
-    #     elif f/100!=n:
-    #         c=b%100
-    #         S=0
-    #         for i in str(c):
-    #             S=S+int(i)
-    #     elif f==b:
-    #         c=b%100
-    #         S=0
-    #         for i in str(c):
-    #             S=S+int(i)
-    #     print("TBC 2 chu so thap phan dau tien la:",S/2)
-    # else:
-    #     break
+while True:
+    n=int(input())
+    if n>0 and n<10**6:
+     if n>0:
+       f=n
+       c=n%100
+       S=0
+       for i in str(c):
+         S=S+int(i)
+       print(S)
+       break
 
 
 # TH1:
